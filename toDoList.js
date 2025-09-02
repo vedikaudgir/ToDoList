@@ -18,6 +18,7 @@ formArea.addEventListener("submit", function(e)
     
     const doneButton = document.createElement("button");
     doneButton.innerText = "Completed ✅";
+    doneButton.classList.add("done-button");
     doneButton.addEventListener("click", function (e)
     {
         if (e.target.matches("button"))
