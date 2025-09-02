@@ -76,7 +76,9 @@ body {
     background-color: #2a2a2a;
 }
 
-#list-area button {
+
+.done-button,
+.remove-button {
     background-color: rgb(170, 157, 192);
     color: #121212;
     border: none;
@@ -85,9 +87,11 @@ body {
     cursor: pointer;
     transition: transform 0.2s, background-color 0.2s;
     font-weight: bold;
+    margin-left: 10px;
 }
 
-#list-area button:hover {
+.done-button:hover,
+.remove-button:hover {
     background-color: rgb(111, 103, 126);
     transform: scale(1.1);
 }
